@@ -1,0 +1,202 @@
+.header
+{
+    height: 80px;
+    width:100%;
+    background-color:#212b37;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top:0;
+    left:0;
+    right:0;
+    position:fixed;
+    z-index: 39;
+}
+.leftsection
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:180px;
+    padding-left: 12px;  
+    flex-shrink: 0;
+}
+.amazonlogo
+{
+    height:40px;
+    
+}
+
+.deliverto
+{
+    color:rgb(245, 239, 239);
+    font-size:16px;
+}
+.countryname
+{
+    font-weight: bolder;
+    font-size:13px;
+    color:white;
+
+}
+.location
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+ 
+    
+}
+.locationicon
+{
+    margin-right: 3px;
+    margin-top: 12px; 
+    color:white; 
+   
+}
+.middlesection
+{
+    display:flex;
+    width:620px;
+    height:40px;
+   
+   border-radius: 4px;
+  margin-left: 20px;
+
+    
+}
+.middlesection:hover{
+    border:2px solid orange;
+}
+.dropdown
+{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+
+}
+ .searchbar
+{
+    
+    border:none;
+    flex:1;
+    height:38zpx;
+   
+}
+
+.searchbar::placeholder
+{
+    font-weight: 500px;
+    color:black;
+    padding-left: 10px;;
+}
+.searchicon
+{
+    margin-left: -2px;
+    background-color:#febd68;
+    border:none;
+    width:40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px ;
+    font-size: 18px;
+    height: 40px;
+} 
+.rightsection
+{
+   display: flex;
+   flex-direction:row;
+   align-items: center;
+   justify-content: space-between;
+   width:350px;
+   padding-right: 12px;
+   margin-left: 10px;
+   margin-right: 12px;
+   flex-shrink: 0;
+    
+}
+.first
+{
+    color:white;
+    font-size: 12px;;
+}
+.second
+{
+    color:white;
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+.cartandtext
+{
+   
+    display:flex;
+    align-items: center;
+   width:80px;
+   
+}
+.cart
+{
+    
+    color:white;
+    font-size: 30px;;
+    
+   
+}
+.firstcart
+{
+   color:white;
+   font-size: 15px;
+   font-weight: bolder;
+    margin-left: 4px;
+}
+.downbar
+{
+    
+    position: fixed;
+    top:80px;
+    width:100%;
+    left:0;
+    height: 40px;
+    background-color:#222f3d;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 12px;
+    color:white;
+    font-weight: 400px;
+    font-size: 15px;
+    z-index: 33;
+    flex-shrink: 0;
+    
+   
+
+}
+.all1
+{
+    display:flex;
+    flex-direction: row;
+    flex-shrink: 0;
+   
+    align-items: center;
+    justify-content: space-between;
+    width:35px
+}
+.links
+{
+    display:flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    margin-left: 23px;
+    margin-right: 700px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding-right: 12px;
+}
